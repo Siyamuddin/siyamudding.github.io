@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0";
+    <title></title>
+    <link rel="icon" href="logo2.png">
+    <link rel="stylesheet" href="main.css">
+    <title>Siyam's Protfolio</title>
+    <script src="https://kit.fontawesome.com/fba30c3282.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img id="logo" src="logo2.png" alt="logo">
+          <ul id="sidemenu">
+            <li><a href="D:\Protfolio\post.html">Post</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#protfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Full-stack web developer</p>
+          <h1>Hi, I'm <span>Siyam Uddin,</span> <br>I am an international <br>student at Sejong University <br>Seoul, South Korea.</h1>
+          <p>Major: Computer Science and Engineering.</p>
+          <p>*I have secured #top5 rank on breecrowd in University ranking.</p>
+        </div>
+      </div>
+    </div>
+<!-----------About------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="user2.jpg" alt="">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="about-text">My name is UDDIN SIYAM, I am from Bangladesh, Chandpur. Currently I am an International student at <a href="http://sejong.ac.kr/">Sejong University <i class="fa-solid fa-link"></i></a> Seoul, South Korea. My major is Computer Science and Engineering, from my child hood I was very curious about science innovation and new technology that's why I choose to study this subject. Beside my academic study, I have completed a full stack web development course on <a href="https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/">Python and Django framework from Udemy <i class="fa-solid fa-link"></i></a>. The course provided hands-on training in building web applications using <b>HTML, CSS, JavaScript, Bootstrap, Django, and Python</b>. During the course, I worked on personal projects such as building my personal portfolio website, a social media website, an e-commerce website, and a blog website. I gained expertise in building dynamic web applications with user authentication and authorization, database integration, and deployment on cloud platforms. I am confident that my skills and experience will enable me to make valuable contributions to any organization.</p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Full-stack devemopment</span><br>Web application development</li>
+                <li><span>Python</span><br>Python web developer by using Django framework.</li>
+                <li><span>Problem solver</span><br>A problem solver using C/C++.</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>Personal Project</span><br>A responsive website for my protfolio.</li>
+                <li><span>Python Project</span><br>A basic self-driving car progam for science fair.</li>
+                <li><span>Problem solver</span><br>More than 2 years of problem solving experience by using C,C++ and Python on famous online judge.</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>Bachelor in Computer Sicence and Engineering at <a href="http://sejong.ac.kr/">Sejong University <i class="fa-solid fa-link"></i></a> Seoul, South Korea.</span><br>Form September 2022 and still attendig the institute for my bachelor degree.</li>
+                <li><span>Full-stack web development boot camp</span><br>I have attended a full stack web development boot camp spacially focused on backend from Udemy.<a href="https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/"><i class="fa-solid fa-link"></i></a></li>
+                <li><span>High-school</span><br>Faridganj Bangabandhu GOVT. College, GPA:5.00/5.00</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------Services---------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Full-stack web development</h2>
+            <p>First of all I took a web programming course from my university and this course seems interesting to me, so I took another online course from Udemy to learn further. Now am a full-stack web developer, I am able to make dynamic and responsive web applications.</p>
+            <a href="#about">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-python"></i>
+            <h2>Python progammer</h2>
+            <p>Python is easy to learn high level progamming language. That's why I choose to learn this language to learn data structure easily. And I also did some project with basic python ex. Self driving vartual car.</p>
+            <a href="#about">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-laptop-code"></i>
+            <h2>Problem solver</h2>
+            <p>When I was in highschool, I was first intruduced to a programming language wich was C programming and I start solving some basic programming problem from beercrowd.</p>
+            <a href="#about">Learn more</a>
+          </div>
+        </div>
+      </div>
+</div>
+
+<!---------protfolio---------->
+
+<div id="protfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="work-1.png" alt="">
+        <div class="layer">
+          <h3>My Protfolio</h3>
+          <p>This is my personal protfolio website wher I showcase my skills. It's resposive and a dynamic web application.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="work-2.png" alt="">
+        <div class="layer">
+          <h3>Basic Self-driving virtual car</h3>
+          <p>This is a beginner level project which is done by me when I was learnig Python programming language. It is a virtual car which has ability to find obstacle from the road and chage it's direction.</p>
+          <a href="#"><i class="fa-solid fa-car"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="work-3.png" alt="">
+        <div class="layer">
+          <h3>Data sturcture</h3>
+          <p>Here I write some important data structure spacially for problem solving.</p>
+          <a href="#"><i class="fa-solid fa-database"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="https://github.com/Siyamuddin?tab=repositories" class="btn">See more <i class="fa-brands fa-github"></i></a>
+  </div>
+</div>
+
+<!-----------contact------------>
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope"></i>siyamuddin177@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>+8201059253773</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/siyam.mizi.94/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://github.com/Siyamuddin"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/siyam-uddin-8953511ab/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/siyam7_/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCEXfHCvKeFF4tpfMhYRDcdg"><i class="fa-brands fa-youtube"></i></i></a>
+        </div>
+        <a href="my-cv.pdf" download class="btn btn2">Dowonload My CV <i class="fa-solid fa-user"></i></a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message or Suggetion for me..."></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright © 2023 Siyam Uddin</p>
+  </div>
+</div>
+
+
+
+
+<script>
+  var tablinks= document.getElementsByClassName("tab-links");
+  var tabcontents=document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+
+</script>
+
+<script>
+  var sidemenu=document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemenu.style.right="0";
+  }
+  function closemenu(){
+    sidemenu.style.right="-200px";
+  }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwsEnrXKq3W9dYXq8c19sXPJOTzH4j8lPpFScFBwQOqFVcCW81EqQ7J5mAwq9GyGeKd/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+  </body>
+</html>

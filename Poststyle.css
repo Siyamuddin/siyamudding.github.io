@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #5f95cf;
+
+  }
+  body{
+    background: #5f95cf;
+  }
+
+  header {
+      text-align: center;
+  }
+  #logo{
+    width: 140px;
+  }
+  nav img{
+    height: 70px;
+    width: 70px;
+    margin-bottom: 20px;
+  }
+  nav{
+    display: flex;
+    text-align: center;
+  }
+
+  nav ul {
+      list-style: none;
+      align-items: center;
+      margin-left: 500px;
+      margin-top: 20px;
+  }
+
+  nav li {
+      display: inline-block;
+      margin-right: 5px;
+      padding-right: 5px;
+      border-right: 1px solid black;
+  }
+
+  nav li a {
+      color: black;
+      text-decoration: none;
+      margin: 10px;
+      font-size: 20px;
+      font-weight: bolder;
+       text-shadow: 2px 2px 4px #000000;
+  }
+
+  nav li a:hover {
+      text-shadow: #d615c6;
+      font-size: 1rem;
+  }
+
+  nav li:last-child {
+      border-right: 0;
+      padding-r
+      font-size: 3rem;ight: 0;
+      margin-right: 0;
+  }
+  .video-container{
+    margin: auto;
+    margin-right:550px;
+ width: 50%;
+ padding: 10px;
+ display: flex;
+  }
+  .video-container iframe{
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  .video2{
+    margin-left: 10px;
+  }
+  .video1 p{
+    margin-left: 20px;
+    color: white;
+  }
+  .video2 p{
+    margin-left: 30px;
+    color: white;
+  }
+  .video-container p:hover{
+    color: #d615c6;
+  }
+  iframe{
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+  iframe{
+    height: 300px;
+    width: 550px;
+  }
+
+  article{
+    display: flex;
+    margin-bottom: 100px;
+  }
+
+  article, footer, nav {
+      padding: 10px;
+  }
+
+  article h1, article p {
+      margin-bottom: 10px;
+  }
+
+  .blog-container{
+    margin: auto;
+ width: 50%;
+ padding: 10px;
+ border-radius: 5px;
+  }
+  .blog-container h1{
+    text-align:center;
+    font-weight: bolder;
+     text-shadow: 2px 2px 4px white;
+  }
+  .blog-container h2{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: bolder;
+     text-shadow: 2px 2px 4px white;
+  }
+  .recent-post{
+    margin-bottom: 50%;
+  }
+  ul li{
+
+  }
+  ul li a{
+    color: white;
+  }
+  li a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom:20px;
+    transition: background 0.5s;
+  }
+  li a:hover{
+    color: #d615c6;
+  }
+  li{
+    margin-bottom: 10px;
+  }
+
+  footer {
+      background: black;
+      text-align: center;
+      color: white;
+  }
+
+  @media (orientation: landscape) {
+      header {
+          display: flex;
+          align-items: center;
+      }
+
+      nav {
+          margin-left: 20px;
+      }
+
+      article {
+          columns: 100px 2;
+      }
+  }
